@@ -30,9 +30,9 @@ const Footer = () => {
                     © 2025 Creado por <span className='text-blue-500'>Pol Miret</span>
                 </p>
                 <div className="flex gap-3 text-neutral-400 items-center">
-                    <a href="#" className="hover:text-blue-500 transition-all'>Políticas de privacidad"></a>
+                    <a href="#" className="hover:text-blue-500 transition-all'>Políticas de privacidad">Políticas de privacidad</a>
                     <span>|</span>
-                    <a href="#" className="hover:text-blue-500 transition-all'>Términos y condiciones"></a>
+                    <a href="#" className="hover:text-blue-500 transition-all'>Términos y condiciones">Términos y condiciones</a>
                 </div>
             </div >
         </div >
