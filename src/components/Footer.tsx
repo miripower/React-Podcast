@@ -19,6 +19,7 @@ const Footer = () => {
                         key={index}
                         href={href}
                         className="bg-white p-2 rounded-full hover:bg-blue-500 text-black hover:text-white transition-all"
+                        target="_blank"
                     >
                         <Icon className="h-6 w-6" />
                     </a>
@@ -29,12 +30,12 @@ const Footer = () => {
                     © 2025 Creado por <span className='text-blue-500'>Pol Miret</span>
                 </p>
                 <div className="flex gap-3 text-neutral-400 items-center">
-                    <a href="#" className='hover:text-blue-500 transition-all'>Políticas de privacidad</a>
-                    <span>|</span>
-                    <a href="#" className='hover:text-blue-500 transition-all'>Términos y condiciones</a>
-                </div>
-            </div>
+                    <a href="#" className="hover:text-blue-500 transition-all'>Políticas de privacidad"></a>
+                <span>|</span>
+                <a href="#" className="hover:text-blue-500 transition-all'>Términos y condiciones"></a>
         </div>
+            </div >
+        </div >
     );
 };
 
