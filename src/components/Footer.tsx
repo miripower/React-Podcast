@@ -31,9 +31,9 @@ const Footer = () => {
                 </p>
                 <div className="flex gap-3 text-neutral-400 items-center">
                     <a href="#" className="hover:text-blue-500 transition-all'>Políticas de privacidad"></a>
-                <span>|</span>
-                <a href="#" className="hover:text-blue-500 transition-all'>Términos y condiciones"></a>
-        </div>
+                    <span>|</span>
+                    <a href="#" className="hover:text-blue-500 transition-all'>Términos y condiciones"></a>
+                </div>
             </div >
         </div >
     );
