@@ -4,7 +4,7 @@ const socialLinks = [
     { href: "https://www.instagram.com/polmiret/", icon: Instagram },
     { href: "https://x.com/polmiret", icon: Twitter },
     { href: "https://github.com/miripower", icon: Github },
-    { href: "https://linkedin.com/pol-miret-vidal", icon: Linkedin },
+    { href: "https://www.linkedin.com/in/pol-miret-vidal/", icon: Linkedin },
 ];
 
 const Footer = () => {

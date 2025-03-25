@@ -9,9 +9,9 @@ const Episodes = () => {
     } | null>(null);
 
     const episodes = [
-        { title: "Episodio 1", description: "Descripción del Episodio 1.", src: "episodio_1.mp3" },
-        { title: "Episodio 2", description: "Descripción del Episodio 2.", src: "episodio_2.mp3" },
-        { title: "Episodio 3", description: "Descripción del Episodio 3.", src: "episodio_3.mp3" },
+        { title: "¿Que és ser FullStack?", description: "En este episodio exploramos que es ser un desarrollador FullStack.", src: "Final_1.mp3" },
+        { title: "Frontend: ¿Qué debería aprender primero?", description: "En este episodio tratamos por donde debería empezar un desarrollador Frontend.", src: "Final_2.mp3" },
+        { title: "¿Qué es una API y para qué sirve?", description: "En este episodio hablamos de que es un api y algunos ejemplos.", src: "Final_3.mp3" },
     ];
 
     const openModal = (episode: { title: string; description: string; src: string }) => {
