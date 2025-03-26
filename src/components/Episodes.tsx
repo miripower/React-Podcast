@@ -35,7 +35,7 @@ const Episodes = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full">
                 {episodes.map((episode, index) => (
-                    <div key={index} className="bg-neutral-800 p-5 rounded-xl flex flex-col justify-between h-full">
+                    <div key={index} className="bg-neutral-800 p-5 rounded-xl flex flex-col justify-between h-full hover:bg-neutral-700 hover:scale-103 transition-all">
                         <div>
                             <h3 className="text-2xl font-bold mb-2">{episode.title}</h3>
                             <p className="text-neutral-400">

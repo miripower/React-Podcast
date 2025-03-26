@@ -29,14 +29,14 @@ const Sponsors = () => {
             <h2 className="text-5xl font-bold text-center">
                 Conoce a nuestros <span className="text-blue-500">patrocinadores</span>
             </h2>
-            <p className="text-neutral-400 mb-5 text-lg text-center">
+            <p className="text-neutral-400 mb-5 text-xl text-center">
                 Un agradecimiento especial a nuestros patrocinadores, que nos apoyan para que este podcast pueda compartirse todas las semanas.
                 Gracias a su colaboración, podemos seguir creando contenido de calidad para ti.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full">
                 {sponsorData.map((sponsor) => (
-                    <div key={sponsor.id} className="bg-neutral-800 rounded-xl p-6 flex flex-col items-center text-center hover:bg-neutral-700 transition-colors">
+                    <div key={sponsor.id} className="bg-neutral-800 rounded-xl p-6 flex flex-col items-center text-center hover:scale-103 hover:bg-neutral-700 transition-all">
                         <div className="h-24 flex items-center justify-center mb-4">
                             <img
                                 src={sponsor.logo}
